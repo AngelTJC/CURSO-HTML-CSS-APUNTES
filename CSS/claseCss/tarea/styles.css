@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header h1 {
+    text-align: center;
+    color: tomato;
+}
+
+.lista {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    place-items: center;
+    list-style: none;
+}
+
+.lista > li{
+    color: salmon;
+    background-color: yellow;
+    padding: 0.5rem 1rem ;
+    font-weight: bold;
+}
+
+.lista a {
+    text-decoration: none;
+}
+
+footer p {
+    margin: 2rem;
+    text-align: center;
+    background-color: darkorange;
+    padding: 1rem;
+    color: yellow;
+    font-weight: bold;
+}
