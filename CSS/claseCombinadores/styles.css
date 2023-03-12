@@ -1,4 +1,4 @@
-
-h3~p{
+/*Selector padre directo*/
+div > p{
     color: red;
 }
