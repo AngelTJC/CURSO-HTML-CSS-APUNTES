@@ -1,4 +1,17 @@
-/*Selector padre directo*/
+/*Selector descendiente*/
+
 div > p{
     color: red;
 }
+
+/*
+LOS COMBINADORES
+
+    '+' Adjacent sibling--> se aplica cuando son hermanos adyacentes(a lado) y solo a ese hermano mas cercado.
+
+    '~' General sibilng--> se aplica a los hermano generales dentro de un contenedor, se aplica desde el hermano que se especifica.
+
+    '>' Child--> se aplica al hijo directo mas cercano y solo al ese hijo del elemento padre.
+
+    'div  a' Decendant--> se aplica a todos los decendientes del elemento padre 
+*/
