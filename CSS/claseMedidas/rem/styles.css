@@ -1,0 +1,30 @@
+/*
+MEDIDAS
+
+rem (root element) --> tomas siempre la medida de
+el elemento raiz(root) que es el html
+
+por defecto html tiene un font-size de 16px entonces
+1rem=16px
+
+pero podemos modificarlos para que valga 10px=62.5%
+y asi 1rem=10px o 2rem=20px y asi sucesivamente
+*/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 10px;
+}
+
+p{
+    font-size: 2rem;
+}
+
+main div{
+    font-size: 1.6rem;
+}
