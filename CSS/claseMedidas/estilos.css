@@ -1,0 +1,15 @@
+/*Medidias
+
+medida 'em' elemento es un tipo de medida que toma
+la  mediada del elemento padre  por ejemplo : digamos 
+que el elemento padre tiene un font-size de 10px entonces 
+en el elemento hijo 1em=10px o 2em=20px
+ y asi sucesivamente.
+*/
+.text-container{
+    font-size: 1em;
+}
+
+.text-container div{
+    font-size: 1.5em;
+}
