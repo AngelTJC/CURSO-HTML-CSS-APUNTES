@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-size: 1.6rem;
+
+    position: relative;
+}
+
+.header {
+    background-color: aquamarine;
+    height: 10vh;
+}
+
+/* .nav{
+    position: relative;
+} */
+
+.logo {
+    display: inline-block;
+    width: 100px;
+    position: relative;
+    top: 12px;
+    left: 15px;
+}
+
+.nav__ul {
+    position: absolute;
+    left: 73vw;
+}
+
+.nav__item {
+    display: inline-block;
+}
+
+.main {
+    background-color: gray;
+    width: 68vw;
+    height: 90vh;
+    display: inline-block;
+    position: absolute;
+    left: 30vw;
+}
+
+.aside {
+    background: salmon;
+    display: inline-block;
+    width: 30vw;
+    height: 90vh;
+    position: relative;
+}
+
+.aside__article {
+    background: violet;
+    height: 180px;
+    width: 80%;
+    margin: 1.5rem;
+    position: relative;
+}
